@@ -1,7 +1,12 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        "Palanquin":["'Palanquin Dark', sans-serif"],
+        "robot":["'Roboto', sans-serif"]
+      }
+    },
   },
   plugins: [],
 }

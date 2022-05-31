@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inspect Flow - The complete developer tool for Tailwind CSS!</title>
+
+    <!-- <link rel="stylesheet" href="dist/output.css"> -->
+    <link rel="stylesheet" href="src/input.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
 </head>
-<body>
-    
+<body class="bg-gray-800 text-white">
+
+    <!-- navbar  -->
+    <nav class="flex flex-row justify-between items-center w-full px-4 py-5">
+        <div class="logo text-xl flex flex-row">
+            <img class="h-8" src="https://www.inspectflow.io/inspect-flow-logo.webp" alt="">
+            <h1 class="font-Palanquin font-bold ml-3">Inspect Flow</h1>
+        </div>
+        <div class="menu">
+            <ul class="hidden sm:flex flex-row items-center text-md font-Palanquin">
+                <li class="mr-4   hover:text-indigo-400 transition-all ease-out duration-300"><a href="#">Home</a></li>
+                <li  class="mr-4 hover:text-indigo-400 transition-all ease-out duration-300"><a href="#">Features</a></li>
+                <li  class="mr-4 hover:text-indigo-400 transition-all ease-out duration-300"><a href="#">Doc</a></li>
+            </ul>
+            <div class="hamburger-menu sm:hidden block text-gray-400 hover:text-white p-3 hover:bg-gray-400 transition-all ease-in duration-300 hover:bg-opacity-25 rounded-md cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 " fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </div>
+        </div>
+    </nav>
+    <!-- ------------ -->
 </body>
 </html>
