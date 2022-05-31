@@ -8,4 +8,4 @@ CSS Framework : Tailwindcss
 ### My Website Demo : https://sm8uti.github.io/InspectFlowClone/
 
 ## Screenshot of My Demo Site : 
-<img src="screenshot.png>
+<img src="screenshot.png">
