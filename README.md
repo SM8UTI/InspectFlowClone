@@ -1,7 +1,7 @@
 # InspectFlowClone
 In this repo, I create a cloned  page of a Inspect Flow Website ( only frontend code )
 
-CSS Framework : Tailwindcss
+-`Html` `Javascript` `Tailwindcss`
 
 
 ### Real Website : https://www.inspectflow.io/
